@@ -83,6 +83,11 @@ class Snake(Animal):
     def make_sound(self):
         return 'hiss'
 
+animals = [
+    Lion('lion'),
+    Mouse('mouse'),
+    Snake('snake')
+]
 
 def animal_sound(animals: list):
     for animal in animals:
